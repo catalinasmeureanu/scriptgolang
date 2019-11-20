@@ -13,12 +13,14 @@
     `sudo nano ~/.profile`
 
     add lines:
+    
     `export GOPATH=$HOME/work`
     
     `export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin`
 
 1. compile the code
-    go install hello
+
+    `go install hello`
 
 1. run the code
 
