@@ -2,7 +2,7 @@ This repo sets up a new environment to run golang program that prints hello
 
 # Instructions
 
-1. clone the repo
+1. clone this repo
 
 1. create VM with Vagrant
    
