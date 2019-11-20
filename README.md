@@ -4,16 +4,20 @@
 
 1. install Golang
 
-    `brew install golang`
+    `curl -O https://storage.googleapis.com/golang/go1.11.2.linux-amd64.tar.gz`
+    `tar -xvf go1.11.2.linux-amd64.tar.gz`
 
 1. configure go environment
 
-    `open ~/.bash_profile`
+    `sudo nano ~/.profile`
 
-    add line `export GOPATH=/Users/Name/go`
+    add lines:
+    `export GOPATH=$HOME/work`
+    `export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin`
 
 1. compile the code
+    go install hello
 
 1. run the code
 
-    `go run hello.go`
+    `hello`
