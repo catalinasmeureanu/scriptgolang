@@ -5,7 +5,7 @@ script:
 - bash test.sh
 deploy:
   provider: releases
-  edge:true
+  edge: true
   skip_cleanup: true
   api_key:
     secure: Su+9lK9KT0xnUndMgK1L1ocnZpCP3BvzbFGl2qbzwI8DJe/IByhAhSXcVAr/TdNxcL1W/l/vIMsz5Dr72XZnQbN02GRK7aYGMzWYsRb55t6GPFN1EDhnpTYeGfjRqJtUSox1lBSJSecfzCBs4V+Akr+S9Vi20ZafP3cxyeQ8zbHSoe/8XLg4bfBvBpI458tnBMci8SOIfYvgmA32+Pr1/oqsiRwwspcjWnm4Z5UXPbIXFoO5qh11Y6c8cXwPmpZ7wG33/FLMhU6mnLcvUVpfHm5ykP3nG1JV9n3m1Im+Q61bQRN1FHHaYd9VRhSuqDV9eMvhMzHdvYB5pt8Hck82HKloIfMS3JRoOG7CXaoMGVt+P66nEyRvAu/xjtx6onS3tpb01yLxeVlCqoiTfxOSv/T1OYaCfK/pHIQKAiYMnbpPe6SsLDcIke56pdyfp1GjBFXMowsoKdZBmu70+zWPX60nxdljYHJuxC7SAgbpQXP5lwspK+WniIoW/ouQZUEsx8ERYucCfLgJCMkX3XSL5Ko+pOZYDBpccZTnbpONJSTUI77+Nn+WnFosvTO+ubHi33uyc6juxKxq3zc8NX+OtzLz9noBRbXI9RnYsQXoVlUJtmLFhZhGQuWQ080thhmsy2Lp1TapVV44W661+XxJm7yH6tCy+84pCyvL8QU+884=
