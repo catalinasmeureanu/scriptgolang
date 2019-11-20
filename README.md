@@ -2,8 +2,16 @@ This repo sets up a new environment to run golang program that prints hello
 
 # Instructions
 
-1. create VM with Vagrant
+1. clone the repo
 
+1. create VM with Vagrant
+   
+   `vagrant up`
+   
+1. connect to the running Vagrant machine
+   
+   `vagrant ssh`
+   
 1. install Golang
 
     `curl -O https://storage.googleapis.com/golang/go1.11.2.linux-amd64.tar.gz`
