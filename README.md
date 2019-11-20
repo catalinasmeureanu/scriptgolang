@@ -1,6 +1,6 @@
 # Instructions
 
-1. clone repo
+1. create VM with Vagrant
 
 1. install Golang
 
