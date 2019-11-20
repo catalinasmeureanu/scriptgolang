@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
-out=$(go hello.go)
+out=$(go run hello.go)
 
-if [ "${out}" == "*hello*" ];then
+
+echo $out
+
+if [[ ${out} == *hello* ]];then
   echo "GOOD: test pass"
 else
   echo "BAD: test fail"
