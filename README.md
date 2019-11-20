@@ -5,6 +5,7 @@
 1. install Golang
 
     `curl -O https://storage.googleapis.com/golang/go1.11.2.linux-amd64.tar.gz`
+    
     `tar -xvf go1.11.2.linux-amd64.tar.gz`
 
 1. configure go environment
@@ -13,6 +14,7 @@
 
     add lines:
     `export GOPATH=$HOME/work`
+    
     `export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin`
 
 1. compile the code
