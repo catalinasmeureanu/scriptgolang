@@ -4,3 +4,14 @@ sudo: required
 
 script:
 - bash test.sh
+
+deploy:
+  provider: releases
+  edge: true
+  skip_cleanup: true
+  api_key:
+    secure: xSd0yiopWrMWtWsNQ6n4ZP3iVs8ybzwRexLzvJlpAqPH2sNnsfZqBrm7UCtBUMRz7oa2XZzreDmxwDB984fCRSOEZUhNh9VGXn8e5+4AEzXRwnBn9et12l2NkOiB9HgCyCULHhRZR90WxZGZ4nJ3JwUwYD4R5fCzP5Xe+ZxPsfORjPSqYWEGs0bWDyybGuZQdBp4nAcNjHu4FjsCoTk84Ttp52aSbLeR9nGkTkJPWu2rNC3u2+ZxtKjouJs1TXesk2Hpr52WQ/WOCNifeCGcvj52fOlysbS/RTLg1v7cMcCe7KVUm9Q+/4w6Q8XemPP84qU7JQuLQQbTsz4pm9OTuc3S0FNP94rN7YGD+Vdh/EPcgNMEUPwLx/sZp4SCAjN4zuzJRskqNvLDx82R2Ap3D4R8nkkKJpElBlEW2cfUilZ7DkLeQOfLNkXaKRbU/8EXFBVjr5w76qC7157UHSXzxbJMbQwoAsvFCtdetChsZ9xuBqeXxq0d8per8+jKXPKAhZJVPgzjVf8vRCMHbdqlnp1NYJxyZeOfrHR8L92s5WaL/MRU8TPZ6BRCgivYN+zcxzWkuZtIYAaoZBEErZisfGiucNzwK8Q3qwV2I6CHfzmq4xF8Nlmi8H3VJX8vb1t+U7Ar8GyDKCsOrvoaETzM5EPLQPnRp6YFqPoO3opXniU=
+  file: hello.go
+  on:
+    repo: https://github.com/catalinasmeureanu/scriptgolang
+    tags: true
